@@ -1,0 +1,75 @@
+* {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);    
+  }
+
+  body {
+    display: flex;
+    flex: auto;
+    background-color: var(--Yellow);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Figtree, sans-serif;
+    font-weight: 500;
+    font-size:medium;
+    top: 50%;
+    left: 50%;
+  }
+
+  main {
+    background-color: var(--White);
+    padding: 20px;
+    margin: auto;
+    width: 340px;
+    margin-right: 25px;
+    border: 1px solid var(--Black);
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--Black);    
+    
+  }
+
+  .image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    align-self: center;
+  }
+
+  .Learning {
+    background-color: var(--Yellow);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 800;
+    width: fit-content;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+
+  p {
+    color: var(--Grey);
+    font-size: medium;
+    font-weight: 500;
+
+  }
+
+  .Anika {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+
+  .Anika img {
+    max-height: 30px;
+    padding: 10px;
+  }
+
